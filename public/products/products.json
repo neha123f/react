@@ -1,0 +1,30 @@
+[
+  {
+    "id": 1,
+    "name": "Wireless Headphones",
+    "price": 99.99,
+    "image": "/products/headphones.jpg",
+    "desc": "High quality wireless headphones."
+  },
+  {
+    "id": 2,
+    "name": "Smart Watch",
+    "price": 149.99,
+    "image": "/products/smartwatch.jpg",
+    "desc": "Track your fitness and notifications."
+  },
+  {
+    "id": 3,
+    "name": "Bluetooth Speaker",
+    "price": 59.99,
+    "image": "/products/speaker.jpg",
+    "desc": "Portable and powerful sound."
+  },
+  {
+    "id": 4,
+    "name": "VR Headset",
+    "price": 199.99,
+    "image": "/products/vr.jpg",
+    "desc": "Immersive virtual reality experience."
+  }
+]
