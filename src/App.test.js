@@ -1,19 +1,13 @@
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-// ❌ Unused variable (code smell)
-const unused = 42;
+// ❌ Useless function, never used (code smell)
+function unusedFunction() {
+  eval("console.log('danger')");
+}
 
 test('renders learn react link', () => {
   render(<App />);
-
-  // ❌ Long test name (may be flagged under naming or readability rules)
-  const linkElement = screen.getByText(/learn react/i);  
-  expect(linkElement).toBeInTheDocument();
-
-  // ❌ Duplicate assertion (redundant code)
+  const linkElement = screen.getByText(/learn react/i);
   expect(linkElement).toBeInTheDocument();
 });
-
-// ❌ Useless empty function (code smell)
-function doNothing() {}
